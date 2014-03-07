@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/themes/black.min.css" />
+<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.2.min.css" />
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.mobile-1.4.2.min.js"></script>
+</head>
+
+<body>
+<script>
+	$(function() {
+		$('#mypanel').panel().enhanceWithin();
+	});
+</script>
+<div data-role="panel" id="mypanel" data-theme="b">
+
+	<h3>Menu</h3>
+	<ul data-role="listview" data-inset="true">
+		<li><a href="#Page 1">Muka 1</a></li>
+		<li><a href="#Page 2">Muka 2</a></li>
+		<li><a href="#Page 3">Muka 3</a></li>
+	</ul>
+</div>
+<!--page1 -->
+<div data-role="page" id="Page 1">
+	<!--header -->
+	<div data-role="header" data-position="fixed" >
+	<a href="#mypanel" data-rel="panel" data-icons="bars">Menu</a>
+	<h5>TENTERA UDARA DIRAJA MALAYSIA</h5>
+	</div>
+	<!--/header -->
+  
+	<!--content -->
+	<div role="main" class="ui-content">
+	<p><h1>LOGO AFNG</h1> </p>
+	
+	<img src="img/afng.jpg" width="80%" style="display : block; margin : 0 auto;"/>
+	<p style="text-align : justify;">
+	Sempena HUT TUDM yang ke-52 pada 01 Jun 10, KDYMM Sultan Pahang selaku Kolonel Yang Dipertua TUDM telah melancarkan logo strategik Airforce Next Generation (AF-NG).
+	Matlamat AF-NG adalah untuk membentuk TUDM sebagai satu tentera udara berkeupayaan  full spectrum yang boleh melaksanakan tugas dan misi di dalam semua keadaan aman atau perang dengan berkesan.
+	Inisiatif bagi transformasi AF-NG tersebut telah diketengahkan oleh Panglima Tentera Udara bagi melonjakkan TUDM ke satu tahap tinggi sebagai tentera udara bertaraf dunia.
+	TUDM perlu berubah untuk menjadi ketumbukan yang lebih berwibawa dan berkaliber dari apa yang ada sekarang.
+	<br /><a href="#Page 2" class="ui-btn">Muka Surat 2</a>
+	<a href="#Page 3" class="ui-btn">Muka Surat 3</a>
+	</div>
+	<!--/content -->
+	
+	<!--footer -->
+	<div data-role="footer" data-position="fixed">
+	<!--navbar -->
+    <div data-role="navbar">
+    <ul>
+        <li><a data-icon="home" class="ui-btn-active ui-state-persist">Page 1</a></li>
+        <li><a data-icon="star" href="#Page 2" data-transition="flip">Page 2</a></li>
+        <li><a data-icon="alert" href="#Page 3" data-transition="flip">Page 3</a></li>
+    </ul>
+	</div>
+	<!-- /navbar -->
+	</div>
+	<!--/footer -->
+</div>
+<!--/page1 -->
+
+<!--page2 -->
+<div data-role="page" id="Page 2" data-theme="b">
+	<!--header -->
+	<div data-role="header" data-add-back-btn="true" data-position="fixed">
+	<h1>MARKAS PENDIDIKAN DAN LATIHAN UDARA</h1>
+	</div>
+	<!--/header -->
+  
+	<!--content -->
+	<div role="main" class="ui-content">
+		<div data-role="collapsibleset">
+			<h3>TUDM</h3>
+			<div data-role="collapsible">
+				<h4>LOGO AFNG</h4>
+				<p><h1>AFNG</h1> </p>
+				<img src="img/afng.jpg" width="80%" style="display : block; margin : 0 auto;"/>
+			</div>
+			<div data-role="collapsible">
+				<h4>MAKSUD AFNG</h4>
+				<p><h1>MAKSUD</h1> </p>
+				<p style="text-align : justify;">
+				Sempena HUT TUDM yang ke-52 pada 01 Jun 10, KDYMM Sultan Pahang selaku Kolonel Yang Dipertua TUDM telah melancarkan logo strategik Airforce Next Generation (AF-NG).
+				Matlamat AF-NG adalah untuk membentuk TUDM sebagai satu tentera udara berkeupayaan  full spectrum yang boleh melaksanakan tugas dan misi di dalam semua keadaan aman atau perang dengan berkesan.
+				Inisiatif bagi transformasi AF-NG tersebut telah diketengahkan oleh Panglima Tentera Udara bagi melonjakkan TUDM ke satu tahap tinggi sebagai tentera udara bertaraf dunia.
+				TUDM perlu berubah untuk menjadi ketumbukan yang lebih berwibawa dan berkaliber dari apa yang ada sekarang.
+				</p>
+			</div>
+			<div data-role="collapsible">
+				<h4>MAKSUD LOGO AFNG</h4>
+				<p><h1>KESELURUHAN</h1> </p>
+				<img src="img/afng.jpg" width="80%" style="display : block; margin : 0 auto;"/>
+				<p style="text-align : justify;">
+				Sempena HUT TUDM yang ke-52 pada 01 Jun 10, KDYMM Sultan Pahang selaku Kolonel Yang Dipertua TUDM telah melancarkan logo strategik Airforce Next Generation (AF-NG).
+				Matlamat AF-NG adalah untuk membentuk TUDM sebagai satu tentera udara berkeupayaan  full spectrum yang boleh melaksanakan tugas dan misi di dalam semua keadaan aman atau perang dengan berkesan.
+				Inisiatif bagi transformasi AF-NG tersebut telah diketengahkan oleh Panglima Tentera Udara bagi melonjakkan TUDM ke satu tahap tinggi sebagai tentera udara bertaraf dunia.
+				TUDM perlu berubah untuk menjadi ketumbukan yang lebih berwibawa dan berkaliber dari apa yang ada sekarang.
+			</div>
+		<!--/content -->
+		
+		<!--footer -->
+		<div data-role="footer" data-position="fixed">
+		<!--navbar -->
+		<div data-role="navbar">
+		<ul>
+			<li><a data-icon="home" href="#Page 1" data-transition="flip">Page 1</a></li>
+			<li><a data-icon="star" class="ui-btn-active ui-state-persist">Page 2</a></li>
+			<li><a data-icon="alert" href="#Page 3" data-transition="flip">Page 3</a></li>
+		</ul>
+		</div>
+		<!-- /navbar -->
+		</div>
+		<!--/footer -->
+	</div>
+<!--/page2 -->
+
+<!--page3 -->
+<div data-role="page" id="Page 3">
+	<!--header -->
+	<div data-role="header" data-add-back-btn="true" data-position="fixed">
+	<h1>SEKOLAH IKHTISAS TENTERA UDARA</h1>
+	</div>
+	<!--/header -->
+  
+	<!--content -->
+	<div role="main" class="ui-content">
+	<h3>Senarai Pegawai</h3>
+	<ul data-role="listview" data-inset="true">
+		<li>
+			<a href="#pop1" data-rel="popup">
+			<img src="img/bulat.jpg" width="150" />
+			<h3>TENTETA UDARA DIRAJA MALAYSIA</h3>
+			<p>Sentiasa Di AngkasaRaya</p>
+			</a>
+		</li>
+		<li>
+			<a href="#pop2" data-rel="popup">
+			<img src="img/mplu.jpg" width="150" />
+			<h3>MARKAS PENDIDIKAN DAN LATIHAN UDARA</h3>
+			<p>Sentiasa Cemerlang</p>
+			</a>
+		</li>
+		
+		
+		
+		
+		<li>SITU</li>
+	</ul>
+	<div data-role="popup" id="pop1" data-theme="d">
+		<ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="e">
+			<li><a href="tel:+60164102732"class="ui-btn ui-btn-icon-left ui-icon-phone">Telefon</a></li>
+			<li><a href="sms://+60164102732"class="ui-btn ui-btn-icon-left ui-icon-edit">Hantar SMS</a></li>
+			<li><a href="mailto:zack6022004@gmail.com"class="ui-btn ui-btn-icon-left ui-icon-mail">Pesanan Emel</a></li>
+		</ul>
+		</div>
+
+		<div data-role="popup" id="pop2" data-theme="d">
+		<ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="e">
+			<li><a href="tel:0164102732">Telefon</a></li>
+			<li><a href="sms://+60164102732">Hantar SMS</a></li>
+			<li><a href="mailto:zack6022004@gmail.com">Pesanan Emel</a></li>
+		</ul>
+		</div>
+		
+		<div data-role="popup" id="pop3" data-theme="d">
+		<ul data-role="listview" data-inset="true" style="min-width:210px;" data-theme="e">
+			<li><a href="tel:0164102732">Telefon</a></li>
+			<li><a href="sms://+60164102732">Hantar SMS</a></li>
+			<li><a href="mailto:zack6022004@gmail.com">Pesanan Emel</a></li>
+		</ul>
+		</div>
+
+	<p>Ini Gambar  
+	<br /> <h1>BUMI</h1> </p>
+	
+	<img src="img/images.jpg" alt="BUMI">
+	<br /><a href="#Page 1" class="ui-btn">Muka Surat 1</a>
+	<a href="#Page 2" class="ui-btn">Muka Surat 2</a>
+	<p>Ini kali Lah</p>
+	<p>Ini Berkali kali </p>
+	
+	</div>
+	<!--/content -->
+	
+	<!--footer -->
+	<div data-role="footer" data-position="fixed">
+    <!--navbar -->
+    <div data-role="navbar">
+    <ul>
+        <li><a data-icon="home" href="#Page 1" data-transition="slidedown">Page 1</a></li>
+        <li><a data-icon="star" href="#Page 2" data-transition="flip">Page 2</a></li>
+        <li><a data-icon="alert" class="ui-btn-active ui-state-persist">Page 3</a></li>
+    </ul>
+	</div>
+	<!-- /navbar -->
+	</div>
+	<!--/footer -->
+</div>
+<!--/page3 -->
+</body>
+
+</html>
